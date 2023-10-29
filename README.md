@@ -76,6 +76,9 @@ From Table 1, you can see the images generated using WGAN-GP and GAN algorithm r
 
 ![App Screenshot](https://github.com/tarundirector/Image-Outpainting-Using-Wasserstein-Generative-Adversarial-Network-with-Gradient-Penalty/assets/85684655/fd4df3d0-bbdc-4f6e-ba44-850be5f1ca77)
 
+## Conclusion
+
+We have successfully implemented image outpainting using WGAN-GP. The results from the training were fairly realistic but could be improved further with a large and diverse dataset and a more complex critic-generator network. The three-phase training has proven to help reach the optimal critic and generator losses that, in turn, improve the quality of generated images.
 
 ## Acknowledgements
 
@@ -92,9 +95,3 @@ From Table 1, you can see the images generated using WGAN-GP and GAN algorithm r
 - [11] Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville: “Improved Training of Wasserstein GANs”, 2017; arXiv:1704.00028.
 - [12] Saxena, Sanjay & Sharma, Shiru & Sharma, Neeraj. (2016). Parallel Image Processing Techniques, Benefits and Limitations. Research Journal of Applied Sciences, Engineering and Technology. 12. 223-238. 10.19026/rjaset.12.2324. 
 - [13] Jacob, I. Jeena, and P. Ebby Darney. “Design of Deep Learning Algorithm for IoT Application by Image based Recognition.” Journal of ISMAC 3, no. 03 (2021): 276-290, doi: //doi.org/10.36548/jismac.2021.3.008
-
-
-
-## Conclusion
-
-We have successfully implemented image outpainting using WGAN-GP. The results from the training were fairly realistic but could be improved further with a large and diverse dataset and a more complex critic-generator network. The three-phase training has proven to help reach the optimal critic and generator losses that, in turn, improve the quality of generated images.
