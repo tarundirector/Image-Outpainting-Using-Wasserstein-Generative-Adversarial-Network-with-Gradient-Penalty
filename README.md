@@ -64,9 +64,9 @@ We trained our critic-generator architecture on the given dataset of natural lan
 To improve the quality of the generated images, after training, we blended the outpainted image with the unmasked portion of the actual image. The results after this process are shown in Fig 6. We also analyzed the MSE losses of training and test images and plotted the loss in a graph shown in Fig 5.
 
 The graph involves the following things:
-• Phase 1: The red region depicts the first phase, which is training the generator based on the MSE loss. As we can see in the red region, there are drastic changes seen in the training MSE loss (shown by Red Line) and validation MSE loss (shown by orange lines).
-• Phase 2: This phase involves training the critic model. As we can see the changes in MSE values are almost negligible as the generator is not learning in this phase.
-• Phase 3: This involves the adversarial training of critic and generator so you can see the MSE values fluctuating although it is negligible to some extent as seen in the graph.
+- Phase 1: The red region depicts the first phase, which is training the generator based on the MSE loss. As we can see in the red region, there are drastic changes seen in the training MSE loss (shown by Red Line) and validation MSE loss (shown by orange lines).
+- Phase 2: This phase involves training the critic model. As we can see the changes in MSE values are almost negligible as the generator is not learning in this phase.
+- Phase 3: This involves the adversarial training of critic and generator so you can see the MSE values fluctuating although it is negligible to some extent as seen in the graph.
 
 ![App Screenshot](https://github.com/tarundirector/Image-Outpainting-Using-Wasserstein-Generative-Adversarial-Network-with-Gradient-Penalty/assets/85684655/d0ea863c-f72a-4d18-8cbc-0dfbbaeea212)
 
